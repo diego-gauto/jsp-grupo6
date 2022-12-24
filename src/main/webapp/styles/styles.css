@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navegacion {
+  background-color: #c6f0f0;
+}
+
+.contenedor-nav {
+  padding: 0 3%;
+}
+
+.logo-nav {
+  color: rgb(124, 134, 183);
+  font-size: 1.5em;
+  font-weight: 600;
+  letter-spacing: 0.5em;
+}
+
+.logo-nav:hover {
+  color: rgb(82, 93, 148);
+}
+
+#navbarTogglerDemo02 {
+  text-align: end;
+}
+
+#profile {
+  display: none;
+}
+
+#banner-pagos {
+  padding: 2% 10% 0 10%;
+}
+
+#botonBusqueda {
+  padding: 2% 10%;
+}
+.btn {
+  background-color: rgb(250, 88, 73);
+}
+#lupitaB {
+  height: 1.5em;
+}
+
+#categorias {
+  padding: 0 10%;
+  height: 10em;
+}
+
+.texto {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #d0ff00;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 100;
+  color: #000000;
+}
+
+#center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-group,
+.card-img-top {
+  padding: 2% 10% 0 10%;
+}
+
+footer {
+  margin-top: 2%;
+  background-color: rgb(172, 172, 242);
+  text-align: center;
+}
+
+.card-text {
+  color: rgb(114, 152, 233);
+}
+
+.btn-primary {
+  background-color: rgb(114, 152, 233);
+  border-color: rgb(114, 152, 233);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #{shade-color($bd-violet, 10%)};
+  --bs-btn-hover-border-color: #{shade-color($bd-violet, 10%)};
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+}
+
+#email-footer {
+  text-align: center;
+  padding-left: 22%;
+  padding-right: 22%;
+}
+
+#offers {
+  padding: 2% 5% 0% 5%;
+  margin-bottom: 3%;
+}
